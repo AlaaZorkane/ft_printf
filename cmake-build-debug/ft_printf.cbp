@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ft_printf"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_printf">
+				<Option output="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug/ft_printf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_printf"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_printf/fast">
+				<Option output="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug/ft_printf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_printf/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/ft_printf/constructors/constructor_char.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/ft_printf/constructors/constructor_decimal.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/ft_printf/constructors/constructor_hex.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/ft_printf/constructors/constructor_percent.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/ft_printf/constructors/constructor_pointer.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/ft_printf/constructors/constructor_string.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/ft_printf/constructors/constructor_unsigned.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/ft_printf/extra/handle_extra.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/ft_printf/extra/handle_flags.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/ft_printf/extra/handle_precision.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/ft_printf/extra/handle_width.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/ft_printf/ft_printf.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/ft_printf/middlewares/constructor_middleware.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/ft_printf/middlewares/print_middleware.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/ft_printf/parsers/parse_char.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/ft_printf/parsers/parse_decimal.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/ft_printf/parsers/parse_hex.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/ft_printf/parsers/parse_percent.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/ft_printf/parsers/parse_pointer.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/ft_printf/parsers/parse_string.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/ft_printf/parsers/parse_unsigned.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/includes/ft_printf.h">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/extra/ft_split.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/extra/ft_tolower.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/extra/ft_toupper.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/files/ft_putchar_fd.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/files/ft_putendl_fd.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/files/ft_puthex_fd.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/files/ft_putnbr_fd.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/files/ft_putstr_fd.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/files/ft_putunsigned_fd.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/lists/ft_lstadd_back.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/lists/ft_lstadd_front.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/lists/ft_lstclear.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/lists/ft_lstdelone.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/lists/ft_lstiter.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/lists/ft_lstlast.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/lists/ft_lstmap.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/lists/ft_lstnew.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/lists/ft_lstsize.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/standard/ft_atoi.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/standard/ft_bzero.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/standard/ft_calloc.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/standard/ft_charcount.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/standard/ft_count_base.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/standard/ft_itoa.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_memccpy.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_memchr.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_memcmp.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_memcpy.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_memmove.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_memset.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_strcapitalize.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_strcat.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_strchr.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_strcmp.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_strcpy.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_strdup.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_strjoin.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_strlcat.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_strlcpy.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_strlen.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_strlowcase.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_strmapi.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_strncat.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_strncmp.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_strncpy.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_strnstr.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_strrchr.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_strrev.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_strstr.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_strtrim.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_strupcase.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/strings/ft_substr.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/type/ft_isalnum.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/type/ft_isalpha.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/type/ft_isascii.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/type/ft_isdigit.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/type/ft_islower.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/type/ft_isprint.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/type/ft_isspace.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/libft/src/type/ft_isupper.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/main.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Alaaz/Desktop/1337/ft_printf_tmp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,33 @@
+%[flags][width][.precision][length]type
+
+flags:
+- | KO | 50%
+0 | KO | 50%
+. | KO | 10%
+* | KO | 50%
+
+width:
+minimum field width | KO | 60%
+
+types:
+c | OK
+s | OK
+d | OK
+i | OK
+u | OK
+p | OK
+x | OK
+X | OK
+% | OK
+
+RETURN: KO
+
+TODO:
+    - finish constructors
+    - start with width flags
+    - minus width flags
+    - fix return
+    - precision
+    - fix return
+    - star
+    - fix return and try everything out
