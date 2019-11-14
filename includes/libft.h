@@ -59,7 +59,7 @@ char				*ft_strrchr(const char *s, int c);
 char				*ft_substr(char const *s, unsigned int start, size_t len);
 unsigned int		ft_charcount(const char *str, char c);
 int					ft_isspace(int c);
-int					ft_strrev(char *str);
+char				*ft_strrev(char *str);
 char				*ft_strncat(char *dest, const char *src, size_t nb);
 char				*ft_strcapitalize(char *str);
 char				*ft_strcat(char *dest, const char *src);
@@ -86,5 +86,7 @@ int					ft_puthex_fd(unsigned int n, int maj, int fd);
 int					ft_count_base(long long n, int base);
 long long           ft_max(long long a, long long b);
 char				*ft_ltoa(long long n);
+char				*ft_ltoa_base(long long n, int base);
+char				*ft_ptoa(void *_ptr);
 
 #endif

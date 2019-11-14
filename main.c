@@ -1,6 +1,6 @@
 #include "ft_printf.h"
 
-#define TEST "%-13.11d\n", 13
+#define TEST "%-6.13u\n", 164
 
 int main()
 {
@@ -10,7 +10,7 @@ int main()
     int a;
 
     a = 5;
-    ptr = NULL;
+    ptr = &a;
     ret1 = printf(TEST);
     ret2 = ft_printf(TEST);
     printf("printf = %d | ft_printf = %d", (unsigned int)ret1, (unsigned int)ret2);

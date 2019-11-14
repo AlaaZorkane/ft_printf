@@ -69,4 +69,4 @@ add_executable(ft_printf main.c includes/ft_printf.h ft_printf/ft_printf.c ft_pr
         ft_printf/constructors/constructor_hex.c
         ft_printf/constructors/constructor_pointer.c
         ft_printf/constructors/constructor_percent.c
-        ft_printf/constructors/constructor_unsigned.c libft/src/extra/ft_max.c libft/src/standard/ft_ltoa.c)
+        ft_printf/constructors/constructor_unsigned.c libft/src/extra/ft_max.c libft/src/standard/ft_ltoa.c libft/src/standard/ft_ltoa_base.c libft/src/standard/ft_ptoa.c)

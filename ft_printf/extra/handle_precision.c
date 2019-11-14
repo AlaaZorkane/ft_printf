@@ -8,9 +8,14 @@ int handle_precision(const char *format)
 
     precision = 0;
     index = g_iterator;
-    if (format[index] == '.')
+	while (format[index] == '.')
     {
         index++;
+		if (format[index] == '*')
+		{
+			g_iterator = index + 1;
+			return (va_arg(g_argp, int));
+		}
         while(ft_isdigit(format[index]))
             index++;
         precision_str = ft_substr(format, g_iterator + 1, index - 2);

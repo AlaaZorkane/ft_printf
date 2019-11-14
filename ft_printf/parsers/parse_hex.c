@@ -7,8 +7,10 @@ void    parse_hex(const char *format, t_extra *store)
     unsigned int	hex_to_print;
 
     hex_to_print = va_arg(g_argp, unsigned int);
-	str_nbr = ft_ltoa(hex_to_print);
-	result = constructor_middleware(str_nbr, store, 'h');
+	str_nbr = ft_ltoa_base(hex_to_print, 16);
+	if (format[g_iterator] == 'X')
+		str_nbr = ft_strupcase(str_nbr);
+	result = constructor_middleware(str_nbr, store, 'd');
 	ft_putstr_fd(result, 0);
 	g_printed += ft_strlen(result);
 	free(result);
