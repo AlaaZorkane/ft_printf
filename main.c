@@ -1,6 +1,6 @@
 #include "ft_printf.h"
 
-#define TEST "%p\n", ptr
+#define TEST "%-13.11d\n", 13
 
 int main()
 {

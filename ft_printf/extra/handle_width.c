@@ -6,6 +6,7 @@ int handle_width(const char *format)
     int width;
     int index;
 
+    width = 0;
     index = g_iterator;
     if (format[index] == '*')
 	{

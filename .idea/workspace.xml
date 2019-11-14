@@ -11,7 +11,27 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe28644b-d30b-492f-b8b0-8495272fb841" name="Default Changelist" comment="" />
+    <list default="true" id="fe28644b-d30b-492f-b8b0-8495272fb841" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/src/extra/ft_max.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/src/standard/ft_ltoa.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_printf/constructors/constructor_char.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_printf/constructors/constructor_char.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_printf/constructors/constructor_decimal.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_printf/constructors/constructor_decimal.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_printf/constructors/constructor_hex.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_printf/constructors/constructor_hex.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_printf/extra/handle_precision.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_printf/extra/handle_precision.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_printf/extra/handle_width.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_printf/extra/handle_width.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_printf/middlewares/constructor_middleware.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_printf/middlewares/constructor_middleware.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_printf/parsers/parse_char.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_printf/parsers/parse_char.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_printf/parsers/parse_decimal.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_printf/parsers/parse_decimal.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_printf/parsers/parse_hex.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_printf/parsers/parse_hex.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/libft.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes" beforeDir="false" afterPath="$PROJECT_DIR$/notes" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,22 +42,30 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TPNB7WvW9Yd6FWvAzZPzfXcIFF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ft_printf/constructors" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Alaaz\Desktop\1337\ft_printf_tmp\ft_printf\middlewares" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libft/src/standard" />
       <recent name="C:\Users\Alaaz\Desktop\1337\ft_printf_tmp\ft_printf\constructors" />
       <recent name="C:\Users\Alaaz\Desktop\1337\ft_printf_tmp\libft" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alaaz\Desktop\1337\ft_printf_tmp\ft_printf\middlewares" />
       <recent name="C:\Users\Alaaz\Desktop\1337\ft_printf_tmp\ft_printf\constructors" />
       <recent name="C:\Users\Alaaz\Desktop\1337\ft_printf_tmp\libft" />
     </key>
@@ -78,24 +106,41 @@
       <workItem from="1573398324041" duration="4361000" />
       <workItem from="1573427997514" duration="9000" />
       <workItem from="1573529594441" duration="10144000" />
+      <workItem from="1573654987897" duration="5961000" />
+      <workItem from="1573667288183" duration="1748000" />
+      <workItem from="1573679744171" duration="3501000" />
+      <workItem from="1573741830258" duration="306000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/ft_printf/extra/handle_flags.c</url>
-          <line>6</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/ft_printf/extra/handle_extra.c</url>
+          <line>5</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/ft_printf/parsers/parse_char.c</url>
-          <line>8</line>
-          <option name="timeStamp" value="11" />
+          <url>file://$PROJECT_DIR$/ft_printf/extra/handle_precision.c</url>
+          <line>9</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -104,6 +149,7 @@
         <watch expression="format[g_iterator]" language="ObjectiveC" />
         <watch expression="store" language="ObjectiveC" />
         <watch expression="g_iterator" language="ObjectiveC" />
+        <watch expression="format[index]" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>

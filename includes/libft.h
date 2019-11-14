@@ -84,5 +84,7 @@ int					ft_lstsize(t_list *lst);
 void				ft_putunsigned_fd(unsigned int n, int fd);
 int					ft_puthex_fd(unsigned int n, int maj, int fd);
 int					ft_count_base(long long n, int base);
+long long           ft_max(long long a, long long b);
+char				*ft_ltoa(long long n);
 
 #endif

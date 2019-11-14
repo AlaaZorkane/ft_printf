@@ -1,9 +1,9 @@
 %[flags][width][.precision][length]type
 
 flags:
-- | KO | 50%
-0 | KO | 50%
-. | KO | 10%
+- | KO | 100%
+0 | KO | 100%
+. | KO | 60%
 * | KO | 50%
 
 width:

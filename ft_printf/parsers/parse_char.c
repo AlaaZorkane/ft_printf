@@ -5,7 +5,6 @@ void parse_char(const char *format, t_extra *store)
     char	char_to_print;
     char 	*ptr;
     char 	*result;
-    int		index;
 
     char_to_print = va_arg(g_argp, int);
     ptr = malloc(2);

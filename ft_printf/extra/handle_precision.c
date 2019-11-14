@@ -11,9 +11,9 @@ int handle_precision(const char *format)
     if (format[index] == '.')
     {
         index++;
-        while(ft_isdigit(format[index] - '0'))
+        while(ft_isdigit(format[index]))
             index++;
-        precision_str = ft_substr(format, g_iterator + 1, index - 1);
+        precision_str = ft_substr(format, g_iterator + 1, index - 2);
         precision = ft_atoi(precision_str);
         free(precision_str);
     }

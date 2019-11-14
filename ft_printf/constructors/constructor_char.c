@@ -6,7 +6,7 @@ char	*constructor_char(const char *str, t_extra *store)
 	int 	size;
 	int 	index;
 
-	size = store->width > 1 ? store->width : 1;
+	size = (int)ft_max(1, store->width);
 	result = malloc(size + 1);
 	result[0] = str[0];
 	index = 1;
