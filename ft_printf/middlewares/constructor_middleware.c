@@ -19,5 +19,7 @@ char *constructor_middleware(const char *str, t_extra *store, char type)
         result = constructor_string(str, store);
 	else if (type == 'u')
         result = constructor_unsigned(str, store);
+	else if (type == '0')
+        constructor_zero(str, store);
 	return (result);
 }

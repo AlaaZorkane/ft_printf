@@ -103,6 +103,9 @@
 		<Unit filename="/Users/azorkane/Desktop/github/ft_printf/ft_printf/constructors/constructor_unsigned.c">
 			<Option target="ft_printf"/>
 		</Unit>
+		<Unit filename="/Users/azorkane/Desktop/github/ft_printf/ft_printf/constructors/constructor_zero.c">
+			<Option target="ft_printf"/>
+		</Unit>
 		<Unit filename="/Users/azorkane/Desktop/github/ft_printf/ft_printf/extra/handle_extra.c">
 			<Option target="ft_printf"/>
 		</Unit>
@@ -151,7 +154,13 @@
 		<Unit filename="/Users/azorkane/Desktop/github/ft_printf/libft/src/extra/ft_max.c">
 			<Option target="ft_printf"/>
 		</Unit>
+		<Unit filename="/Users/azorkane/Desktop/github/ft_printf/libft/src/extra/ft_min.c">
+			<Option target="ft_printf"/>
+		</Unit>
 		<Unit filename="/Users/azorkane/Desktop/github/ft_printf/libft/src/extra/ft_split.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/azorkane/Desktop/github/ft_printf/libft/src/extra/ft_swap.c">
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/Users/azorkane/Desktop/github/ft_printf/libft/src/extra/ft_tolower.c">

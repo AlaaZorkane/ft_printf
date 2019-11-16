@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_max.c                                           :+:      :+:    :+:   */
+/*   ft_min.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: azorkane <azorkane@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/10/18 03:08:53 by azorkane          #+#    #+#             */
-/*   Updated: 2019/11/15 22:12:27 by azorkane         ###   ########.fr       */
+/*   Created: 2019/11/15 22:11:30 by azorkane          #+#    #+#             */
+/*   Updated: 2019/11/15 22:12:30 by azorkane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-long long	ft_max(long long a, long long b)
+long long	ft_min(long long a, long long b)
 {
-	return (a > b ? a : b);
+	return (a < b ? a : b);
 }

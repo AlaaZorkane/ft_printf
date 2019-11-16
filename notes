@@ -3,15 +3,15 @@
 flags:
 - | KO | 100%
 0 | KO | 100%
-. | KO | 60%
-* | KO | 50%
+. | KO | 100%
+* | KO | 100%
 
 width:
-minimum field width | KO | 60%
+minimum field width | KO | 100%
 
 types:
 c | OK
-s | OK
+s | KO | WITH ALL
 d | OK
 i | OK
 u | OK
@@ -23,9 +23,5 @@ X | OK
 RETURN: KO
 
 TODO:
-    - finish constructors
-    - start with width flags
-    - minus width flags
-    - precision
-    - star
-    - fix return and try everything out
+    - minus with zero flag decimal
+    - negative values with asteriks (FLAG minus / ignore in precision)

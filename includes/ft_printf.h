@@ -56,12 +56,13 @@ char	*constructor_percent(const char *str, t_extra *store);
 char	*constructor_pointer(const char *str, t_extra *store);
 char	*constructor_string(const char *str, t_extra *store);
 char	*constructor_unsigned(const char *str, t_extra *store);
+void	constructor_zero(const char *str, t_extra *store);
 
 
 // DEFINES
 #define LEFT_FLAG (1 << 1) // 0010
 #define ZERO_FLAG (1 << 2) // 0100
 
-#define BITMASK(BITS,MASK) ( (BITS & MASK) == MASK)
+#define BITMASK(BITS,MASK) ((BITS & MASK) == MASK)
 
 #endif

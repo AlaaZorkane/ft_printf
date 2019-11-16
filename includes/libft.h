@@ -88,5 +88,7 @@ long long           ft_max(long long a, long long b);
 char				*ft_ltoa(long long n);
 char				*ft_ltoa_base(long long n, int base);
 char				*ft_ptoa(void *_ptr);
+long long			ft_min(long long a, long long b);
+void				ft_swap(long long *a, long long *b);
 
 #endif
