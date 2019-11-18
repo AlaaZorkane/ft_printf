@@ -15,6 +15,7 @@
 # define FT_LIBFT_H
 # include <stdlib.h>
 # include <unistd.h>
+# define abs(x) (x > 0 ? x : -x)
 
 typedef	struct		s_list
 {

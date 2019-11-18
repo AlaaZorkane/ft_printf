@@ -1,27 +1,15 @@
 %[flags][width][.precision][length]type
 
-flags:
-- | KO | 100%
-0 | KO | 100%
-. | KO | 100%
-* | KO | 100%
-
-width:
-minimum field width | KO | 100%
-
-types:
-c | OK
-s | KO | WITH ALL
-d | OK
-i | OK
-u | OK
-p | OK
-x | OK
-X | OK
-% | OK
-
-RETURN: KO
-
 TODO:
-    - minus with zero flag decimal
     - negative values with asteriks (FLAG minus / ignore in precision)
+
+
+Working:
+    - width > precision
+    - width < precision
+    - width alone
+    - precision alone
+    - minus flag with width alone
+    - minus flag with 0 flag and width alone
+    - minus flag with 0 flag and width > precision
+    - minus flag with 0 flag and width < precision

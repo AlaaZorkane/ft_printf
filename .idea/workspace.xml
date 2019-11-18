@@ -12,22 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe28644b-d30b-492f-b8b0-8495272fb841" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ft_printf/constructors/constructor_zero.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/src/extra/ft_min.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libft/src/extra/ft_swap.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ft_printf/constructors/constructor_decimal.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_printf/constructors/constructor_decimal.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ft_printf/constructors/constructor_pointer.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_printf/constructors/constructor_pointer.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ft_printf/constructors/constructor_string.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_printf/constructors/constructor_string.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft_printf/extra/handle_precision.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_printf/extra/handle_precision.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft_printf/middlewares/constructor_middleware.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_printf/middlewares/constructor_middleware.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ft_printf/parsers/parse_char.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_printf/parsers/parse_char.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ft_printf/parsers/parse_string.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_printf/parsers/parse_string.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ft_printf/parsers/parse_decimal.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_printf/parsers/parse_decimal.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/ft_printf.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/ft_printf.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/libft.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/libft.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft/src/extra/ft_max.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/src/extra/ft_max.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libft/src/standard/ft_ptoa.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/src/standard/ft_ptoa.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes" beforeDir="false" afterPath="$PROJECT_DIR$/notes" afterDir="false" />
@@ -53,6 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -119,6 +112,10 @@
       <workItem from="1573912358247" duration="191000" />
       <workItem from="1573912564807" duration="8216000" />
       <workItem from="1573929738177" duration="1127000" />
+      <workItem from="1573948069692" duration="198000" />
+      <workItem from="1574013029611" duration="7378000" />
+      <workItem from="1574023200348" duration="3199000" />
+      <workItem from="1574031019659" duration="2929000" />
     </task>
     <task id="LOCAL-00001" summary="Added decimal constructor + more libft functions">
       <created>1573742213876</created>
@@ -134,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573775482742</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finished all constructors, decimal and pointer exceptions">
+      <created>1573948180782</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573948180782</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +160,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added decimal constructor + more libft functions" />
     <MESSAGE value="Added hex/percent/pointer/unsigned constructors + more libft functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added hex/percent/pointer/unsigned constructors + more libft functions" />
+    <MESSAGE value="Finished all constructors, decimal and pointer exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished all constructors, decimal and pointer exceptions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -164,16 +169,6 @@
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/ft_printf/extra/handle_extra.c</url>
           <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/ft_printf/extra/handle_precision.c</url>
-          <line>15</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/ft_printf/constructors/constructor_decimal.c</url>
-          <line>29</line>
-          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,6 +1,6 @@
 #include "ft_printf.h"
 
-#define TEST "%06d\n", -1354
+#define TEST "%-8.1s\n", "hello"
 
 int main()
 {

@@ -12,12 +12,14 @@ void parse_char(const char *format, t_extra *store)
 		ptr = malloc(1);
 		ptr[0] = char_to_print;
 		result = constructor_middleware(ptr, store, '0');
+		ft_putstr_fd(result, 1);
 		g_printed++;
     } else {
 		ptr = malloc(2);
 		ptr[0] = char_to_print;
 		ptr[1] = '\0';
 		result = constructor_middleware(ptr, store, 'c');
+		ft_putstr_fd(result, 1);
 		g_printed += ft_strlen(result);
     }
     free(result);
